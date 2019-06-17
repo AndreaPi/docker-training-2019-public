@@ -12,7 +12,8 @@ This repo contains a simple exercise on how to write Dockerfiles. The goals of t
 
 The ResNet-50 example is:
 - [Keras ResNet-50 example](https://github.com/AndreaPi/docker-training-2019-public/blob/master/notebooks/keras_resnet50_example.ipynb)
-The Keras-RetinaNe example is:
+
+The Keras-RetinaNet example is:
 - [Keras RetinaNet example TODO]()
 
 Details on how to run the notebooks above are given below.
