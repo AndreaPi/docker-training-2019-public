@@ -1,0 +1,17 @@
+FROM nvcr.io/nvidia/tensorflow:19.03-py3
+
+LABEL maintainer="youremail@here.com"
+
+ARG http_proxy
+ARG https_proxy
+ARG no_proxy
+
+COPY Container-Root /
+
+RUN export http_proxy=$http_proxy; export https_proxy=$https_proxy; export no_proxy=$no_proxy; /setup.sh; rm -f /setup.sh
+
+RUN pip3 install --user --upgrade -r /requirements.txt
+
+WORKDIR /
+
+CMD ./startup.sh
