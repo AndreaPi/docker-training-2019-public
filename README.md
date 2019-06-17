@@ -10,10 +10,12 @@ This repo contains a simple exercise on how to write Dockerfiles. The goals of t
 
 ### Examples
 
-The example is:
-- [Keras ResNet-50 example]()
+The ResNet-50 example is:
+- [Keras ResNet-50 example](https://github.com/AndreaPi/docker-training-2019-public/blob/master/notebooks/keras_resnet50_example.ipynb)
+The Keras-RetinaNe example is:
+- [Keras RetinaNet example TODO]()
 
-Details on how to run the notebook above are given below.
+Details on how to run the notebooks above are given below.
 
 ### Implementation: depend-on-docker
 
@@ -57,6 +59,6 @@ This script shows the current status of the Docker container including any mappe
 Stops the container and cleans up its files.
 
 ### Presentation
-Slides giving some background on Docker and introducing the exercise are [here]()
+Slides giving some background on Docker and introducing the exercise are [TODO]()
 
 
