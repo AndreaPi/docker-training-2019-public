@@ -60,6 +60,6 @@ This script shows the current status of the Docker container including any mappe
 Stops the container and cleans up its files.
 
 ### Presentation
-Slides giving some background on Docker and introducing the exercise are [TODO]()
+Slides giving some background on Docker and introducing the exercise are [here]((https://github.com/AndreaPi/docker-training-2019-public/blob/master/Docker_basics_public.pdf))
 
 
