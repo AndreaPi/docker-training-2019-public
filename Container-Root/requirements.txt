@@ -1,4 +1,5 @@
-Pillow
-keras
-opencv-python
+numpy
 h5py
+Pillow
+opencv-python
+pandas
