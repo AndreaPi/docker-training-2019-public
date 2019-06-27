@@ -1,6 +1,7 @@
 numpy
 h5py
 requests
+tqdm
 Pillow
 opencv-python
 pandas
