@@ -9,7 +9,7 @@ export no_proxy=localhost
 ## REGISTRY: [optional] - Docker registry path including trailing "/". Example: registry.company.com/demo/
 export REGISTRY=
 ## IMAGE: <required> - Docker image name for this project. Example: myapp
-export IMAGE=resnet50_mini
+export IMAGE=keras_cv_examples
 ## VERSION: [optional] - Version tag for this Docker image. Example: v20180302
 export VERSION=v$(date +%Y%m%d)
 export TAG=$(if [ -z "${VERSION}" ]; then echo ""; else echo ":${VERSION}"; fi) 
