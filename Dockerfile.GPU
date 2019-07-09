@@ -2,24 +2,20 @@ FROM nvcr.io/nvidia/tensorflow:19.03-py3
 
 LABEL maintainer="youremail@here.com"
 
-ARG http_proxy
-ARG https_proxy
-ARG no_proxy
-
-COPY Container-Root /
-
-RUN export http_proxy=$http_proxy; export https_proxy=$https_proxy; export no_proxy=$no_proxy; /setup.sh; rm -f /setup.sh
-
-RUN apt-get -y update -o Acquire::https::Verify-Peer=false && apt-get -y install \
+RUN apt-get -y update -o Acquire::https::Verify-Peer=false \ 
+    && apt-get -y install --no-install-recommends \
     libglib2.0-0 \
     libsm6 \
     libxext6 \
     libxrender1 \
-    git
+    git \
+    && rm -rf /var/lib/apt/lists/*
 
 WORKDIR /
 
 ENV PATH="${PATH}:/root/.local/bin"
+
+COPY requirements.txt /
 
 RUN pip3 install --user --upgrade -r /requirements.txt
 
@@ -29,5 +25,7 @@ RUN cd keras-retinanet && \
     pip3 install --user .
 
 RUN pip3 install --user git+https://github.com/cocodataset/cocoapi.git#subdirectory=PythonAPI
+
+COPY Container-Root /
 
 CMD ./startup.sh

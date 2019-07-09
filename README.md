@@ -14,7 +14,7 @@ The ResNet-50 example is:
 - [Keras ResNet-50 example](https://github.com/AndreaPi/docker-training-2019-public/blob/master/notebooks/keras_resnet50_example.ipynb)
 
 The Keras-RetinaNet example is:
-- [Keras RetinaNet example TODO]()
+- [Keras RetinaNet example](https://github.com/AndreaPi/docker-training-2019-public/blob/master/notebooks/keras_resnet50_example.ipynb)
 
 Details on how to run the notebooks above are given below.
 
@@ -60,6 +60,6 @@ This script shows the current status of the Docker container including any mappe
 Stops the container and cleans up its files.
 
 ### Presentation
-Slides giving some background on Docker and introducing the exercise are [here]((https://github.com/AndreaPi/docker-training-2019-public/blob/master/Docker_basics_public.pdf))
+Slides giving some background on Docker and introducing the exercise are [here](https://github.com/AndreaPi/docker-training-2019-public/blob/master/Docker_basics_public.pdf)
 
 
