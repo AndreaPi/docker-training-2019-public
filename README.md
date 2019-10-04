@@ -6,7 +6,7 @@ This repo contains a simple exercise on how to write Dockerfiles. The goals of t
  - to illustrate some common pitfalls when using Docker (e.g., naming images, setting proxies, hanging containers) 
  - to perform inference with a ResNet-50 model, using Keras in a Jupyter notebook 
  - to perform inference with a RetinaNet model, using Keras in a Jupyter notebook
- - (optional) to show how easy is to rerun the inference on a GPU-enabled environment, thanks to Docker
+ - (optional) to show how easy it is to rerun the inference on a GPU-enabled environment, thanks to Docker
 
 ### Examples
 
