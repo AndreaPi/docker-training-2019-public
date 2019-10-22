@@ -29,7 +29,7 @@ To perform inference with the ResNet-50 model in Keras, every time we move to a 
  - (possibly) configure paths
  - install Tensorflow, Keras, Pillow, opencv-python, h5py, numpy, jupyter in the venv/conda env
 
-Even more packages would have to be installed if we also wanted to _train_ a ResNet-50 model. Instead, we packaged all the necessary dependencies into our image. **Running the Jupyter notebook** become very simple: `./run.sh` will get you your own Jupyter Notebook server! After that, simply open Chrome and browse to http://localhost:5555. 
+Even more packages would have to be installed if we also wanted to _train_ a ResNet-50 model. Instead, we packaged all the necessary dependencies into our image. **Running the Jupyter notebook** becomes very simple: `./run.sh` will get you your own Jupyter Notebook server! After that, simply open Chrome and browse to http://localhost:5555. 
 
 #### Minimal [{DoD}](https://github.com/bhgedigital/depend-on-docker)
 
