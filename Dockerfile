@@ -1,4 +1,4 @@
-FROM tensorflow/tensorflow:1.13.1-py3-jupyter
+FROM tensorflow/tensorflow:1.15.0-py3-jupyter
 
 LABEL maintainer="youremail@here.com"
 
