@@ -18,6 +18,9 @@ The Keras-RetinaNet example is:
 
 Details on how to run the notebooks above are given below.
 
+ ### NOTE: dowloading weights
+ Both examples download model weights from the Internet at runtime. Since Docker containers are **stateless**, this means that each time the notebook is run, weights are downloaded again. This can be a pain on slow Internet connections. To avoid that, rename `Dockerfile.download.weights` to `Dockerfile` before building the Docker image. This will make Docker download all model weights just once at build time. Then, each time the Docker container is run, weights don't need to be downloaded anymore. If you don't know what building an image or running a container means, keep reading this doc or see [here](https://github.com/AndreaPi/docker-training-2019-public/blob/master/Docker_basics_public.pdf) 🙂
+
 ### Implementation: depend-on-docker
 
 Depend on Docker, a.k.a as {DoD},  is an easy to use project template that simplifies the use of Docker, on any OS, locally, in a data center, or on the cloud. With Docker, the only dependency you need to run your code everywhere is Docker itself!
