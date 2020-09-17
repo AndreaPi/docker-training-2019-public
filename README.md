@@ -1,6 +1,6 @@
 # WARNING: This repository is no longer maintained :warning:
 
-> This repository is no longer maintained and it may be deleted in the future. Please visit https://github.com/AndreaPi/docker-for-deep-learning.git instead.
+> This repository is no longer maintained and it may be deleted in the future. Please visit https://github.com/AndreaPi/docker-for-deep-learning instead.
 
 # Docker training 2019
 
